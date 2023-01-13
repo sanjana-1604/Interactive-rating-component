@@ -1,5 +1,62 @@
 .App {
   text-align: center;
   background-color: black;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
-
+.MainScreen
+{
+  background-color: hsl(216, 12%, 8%);
+  width:417px;
+  height:404px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content:flex-start;
+  padding:40px;  
+}
+.question
+{
+  text-align: left;
+  margin:10px;
+}
+.question h1{
+  color:hsl(0, 0%, 100%);
+  font-weight: 400;  
+}
+.question p{
+  color:hsl(216, 12%, 54%);
+  font-size: 15px;
+  width:90%;
+}
+.star, .rating
+{
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  width:17px;
+  height: 16px;
+  padding: 10px;
+}
+.rating{
+  margin:15px;  
+}
+.ratingSection
+{
+  display: flex;
+  justify-content:center;
+  color:hsl(216, 12%, 54%);
+}
+.submit
+{ 
+  background-color: #FC7615;
+  border-radius: 20px;
+  padding:10px;
+  color: #FFCC96;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 300px;
+}
